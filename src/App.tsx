@@ -321,7 +321,6 @@ const FocusSlide = ({ isActive }: SlideProps) => (
 const GoalsObjectivesSlide = ({ isActive }: SlideProps) => (
   <div className="h-full w-full relative overflow-hidden flex flex-col justify-center">
     <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-[0.14] pointer-events-none" />
-    {/* Decorative lighting elements */}
     <div className="absolute top-10 left-10 w-96 h-96 bg-emerald-500/[0.03] rounded-full blur-3xl pointer-events-none" />
     <div className="absolute bottom-10 right-10 w-96 h-96 bg-orange-500/[0.03] rounded-full blur-3xl pointer-events-none" />
 
@@ -385,7 +384,6 @@ const GoalsObjectivesSlide = ({ isActive }: SlideProps) => (
           </div>
         </motion.div>
 
-        {/* Right Column: Detailed Milestones Block (Зорилт) */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={isActive ? { opacity: 1, x: 0 } : {}}
@@ -698,7 +696,6 @@ const ExpansionSlide = ({ isActive }: SlideProps) => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 z-10">
         {[
           {
-            phase: "ФАЗ 1",
             title: "СОШИАЛ НӨЛӨӨЛӨЛ",
             desc: "Залуусыг сошиал сувгаар нэгтгэж, байгальд ээлтэй тогтмол сонирхолтой контентоор дамжуулан эко дадал суулгана.",
             img: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80",
@@ -708,7 +705,6 @@ const ExpansionSlide = ({ isActive }: SlideProps) => (
             badge: "SOCIAL NETWORK",
           },
           {
-            phase: "ФАЗ 2",
             title: "СУРГУУЛИЙН СҮЛЖЭЭ",
             desc: "Эхний жишиг сургуулийн туршлагыг дараагийн 10+ сургуульд нэвтрүүлж, сурагчдын эко бүлгэмүүдийг байгуулна.",
             img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80",
@@ -719,7 +715,6 @@ const ExpansionSlide = ({ isActive }: SlideProps) => (
             badge: "SCHOOL NETWORK",
           },
           {
-            phase: "ФАЗ 3",
             title: "ГЛОБАЛ СУВАГ",
             desc: "Бодлогын тайланг Үндэсний Ассамблей болон НҮБ-ын байгууллагуудад танилцуулж, урт хугацааны санхүүжилт босгоно.",
             img: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80",
