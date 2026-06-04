@@ -3100,7 +3100,7 @@ export default function App() {
     <SolutionsSlide isActive={true} />,
     <SDGSlide isActive={true} />,
     <ActivitiesSlide isActive={true} />,
-    <SIASlide isActive={true} />,
+    <SIASlide isActive={false} />,
     <SIADetailsSlide isActive={true} />,
     <NationalAssemblySlide isActive={true} />,
     <SkillsSlide isActive={true} />,
